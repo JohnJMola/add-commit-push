@@ -1,5 +1,7 @@
 import os
 
+message=input("enter message")
+
 print('git status')
 os.system('git status')
 print('add file')
