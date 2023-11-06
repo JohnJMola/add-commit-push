@@ -1,4 +1,8 @@
 import os
 
-os.system('cmd /k "git init -b main"')
-os.system('cmd /k "git add --all"')
+print('git status')
+os.system('git status')
+print('add file')
+os.system('git add -A')
+os.system('git commit -m "Update files"')
+os.system('git push')
